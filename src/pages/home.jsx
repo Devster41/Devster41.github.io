@@ -1,29 +1,40 @@
 import { useNavigate } from "react-router-dom";
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import {useParams} from 'react-router-dom'; 
 import { Typography } from "@mui/material";
 
+
+
 const Home = () => {
     return (
-        <Typography>
-            Oh, dear Caleb, how funny you are
-Tore your MCL, now that's bizarre
-But your antics don't end there, oh no
-You like to spray olive oil, don't you know?
-
-Into your brother Devin's hands, you say
-He must be quite annoyed, in a playful way
-But Pam Original has got you in stitches
-It's the funniest thing you've ever witnessed
-
-And then there's Hannah, your beloved fiancé
-She's got a teacher voice, don't you know?
-She has to use it on you, from time to time
-But you just keep on being hilarious and fine
-
-Oh, dear Caleb, you bring joy and laughter
-We're glad you're here, now and ever after!
-        </Typography>
+      <><section>
+        <h1>Welcome to my website</h1>
+      </section><section>
+          <div class="container reveal">
+            <h2>About me</h2>
+            <div class="text-container">
+              <div class="text-box">
+                <h3>Tetris God</h3>
+                <p>
+                  I am a god among men when it comes to NES Tetris. My high score is 999,999.
+                </p>
+              </div>
+              <div class="text-box">
+                <h3>Nerd</h3>
+                <p>
+                  I am a nerd among many things, including sports, Lord of the Rings, and music.
+                </p>
+              </div>
+              <div class="text-box">
+                <h3>Goblin</h3>
+                <p>
+                  I am a goblin who will spray olive oil in your hands and min-max my D&D
+                  character to make it not fun for everyone else.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section></>
     )
 }
 

@@ -8,7 +8,7 @@ const Routing = props => {
     return (
         <Router>
             <Routes>
-                <Route exact path="/" element={<Home />} />
+                <Route exact path="/Personal-Site" element={<Home />} />
             </Routes>
         </Router>
     );
